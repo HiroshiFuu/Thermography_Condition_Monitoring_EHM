@@ -9,7 +9,7 @@ args = vars(ap.parse_args())
 
 Url = "http://smsgateway.me/api/v3/messages/send";
 c = pycurl.Curl()
-formdata = {'number':args['hp'], 'message':args['msg'], 'device':'28413', 'email':'FENG0060@e.ntu.edu.sg', 'password':'FH880622'}
+formdata = {'number':args['hp'], 'message':args['msg'], 'device':'61672', 'email':'rr.iotlab@gmail.com', 'password':'1qaz2wsx'}
 result = urllib.urlencode(formdata)
 c.setopt(pycurl.POST, 5)
 c.setopt(pycurl.POSTFIELDS, result)

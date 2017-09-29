@@ -8,9 +8,9 @@ ap.add_argument('-b', '--body', required=True, help='E-mail body')
 args = vars(ap.parse_args())
 
 recipient = args['recipient']
-gmail_user = 'HiroshiFuu@gmail.com'
-gmail_pwd = 'Hir0shiFuu'
-FROM = 'HiroshiFuu@gmail.com'
+gmail_user = 'RRERT4.2@gmail.com'
+gmail_pwd = 'LilyIsPretty'
+FROM = 'RRERT4.2@gmail.com'
 TO = recipient if type(recipient) is list else [recipient]
 SUBJECT = args['subject']
 TEXT = args['body']
